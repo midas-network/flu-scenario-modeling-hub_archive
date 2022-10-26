@@ -110,7 +110,7 @@ Initial conditions for prior immunity and waning of prior immunity by age class 
 
 ## Vaccine Effectiveness
 ### VE against infection (by age, if relevant)
-The model assumes that VE against transmission is negligble. 
+The model assumes that VE against transmission is negligible. 
 
 ### VE against mortality (by age, if relevant)
 The model does not explicitly include VE against mortality, but does include VE against hospitalization, which is adjusted by age group from: [Treanor et al. 2012, Table 3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3657521/); [CDC 2018-2019 season VE](https://www.cdc.gov/flu/vaccines-work/2018-2019.html)

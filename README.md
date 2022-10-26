@@ -344,7 +344,7 @@ Modeling Hub are equivalent to the forecast dates in the
 
 ### Gold standard data
 
-*to be addded*
+*to be added*
 
 ### Locations
 Model projections may be submitted for any state in the US and the US at the 

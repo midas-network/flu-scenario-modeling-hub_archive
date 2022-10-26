@@ -1,5 +1,5 @@
 # Summary of Results
-We provide influenza hospitalization projections for all states and the US. We find that in the pessimistic immunity scenarios (B and D), incidence hospitalizations peak earlier and higher than in the optimistic immunity scenarios (A and C). The total hospitalizations are much more in scenarios B and D than in A and C. Under either proior immunity level, hospitalizations are much more with low vaccine protection. The prior immunity axis has a larger impact than the vaccine protection axis.
+We provide influenza hospitalization projections for all states and the US. We find that in the pessimistic immunity scenarios (B and D), incidence hospitalizations peak earlier and higher than in the optimistic immunity scenarios (A and C). The total hospitalizations are much more in scenarios B and D than in A and C. Under either prior immunity level, hospitalizations are much more with low vaccine protection. The prior immunity axis has a larger impact than the vaccine protection axis.
 
 The exact timing and magnitude of the peak and the start and end of the season vary across different states. But in most states, the hospitalization incidence peaks around the end of 2022 to the beginning of 2023 in scenarios A and C, and around early to middle December 2022 in scenarios B and D.
 

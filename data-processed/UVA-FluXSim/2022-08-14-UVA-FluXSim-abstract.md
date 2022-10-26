@@ -50,7 +50,7 @@ Each age group has varying outcome risk ratios based on past burden estimates. F
 
 ## State-level Variability
 ### State-stratification details (prior immunity, vaccine coverage)
-No state level variability in prior immunity or seasonal forcing. Vaccine coverage heterogeneity, as suggested by the schedules. Age profiles and contact patterns are heterogeneous since they are obtained by agggregating a realistic synthetic population.  
+No state level variability in prior immunity or seasonal forcing. Vaccine coverage heterogeneity, as suggested by the schedules. Age profiles and contact patterns are heterogeneous since they are obtained by aggregating a realistic synthetic population.  
 
 ## Vaccine Effectiveness
 ### VE against infection (by age, if relevant)
