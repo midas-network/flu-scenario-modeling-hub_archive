@@ -1,0 +1,10 @@
+team_name: PSI
+model_name: M1
+model_abbr: PSI-M1
+model_contributors: Ben-Nun M (Predictive Science) <mbennun@predsci.com>, Turtle J (Predictive Science) <jturtle@predsci.com>, Riley P (Predictive Science) <pete@predsci.com>.
+website_url: https://predsci.com/usa-flu-hosp/
+model_version: "1.0"
+methods: For each state our scenario projections are generated using a mechanistic model with S[Sv]I[Iv]HR compartments, where 'v' subscripts indicate vaccinated. We use the population and vaccine time series provided by the Scenario Hub and assume that the infection-susceptibility of vaccinated individuals is reduced by one half of vaccine effectiveness. Our model requires as inputs an estimate for R0, the hospitalization probability of an infectious case, and the initial number of cases.  For each state these were estimated by fitting the scenario D model to daily data from HHS. The national projection profiles are calculated as the sum of states using randomly ordered state level profiles. 
+license: cc-by-4.0
+
+

@@ -1,0 +1,9 @@
+team_name: Fogarty International Center, National Institutes of Health (NIH)
+model_name: FluD
+model_abbr: NIH-FluD
+model_contributors: Samantha Bents (NIH) <samantha.bents@nih.gov>, Cécile Viboud (NIH) <viboudc@mail.nih.gov>
+website_url: not available
+model_version: not available 
+methods: deterministic age-structured SEIRS model
+license: not available 
+citation: not available

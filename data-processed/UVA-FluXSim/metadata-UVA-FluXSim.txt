@@ -1,0 +1,8 @@
+team_name: UVA Biocomplexity Institute 
+model_name: FluXSim
+model_abbr: UVA-FluXSim
+model_contributors: Srini Venkatramanan <srini@virginia.edu>, Aniruddha Adiga <aa5dw@virginia.edu>, Przemek Porebski <pjp2b@virginia.edu>, Brian Klahn <briandk@virginia.edu>, Benjamin Hurt <bh3an@virginia.edu>,  Bryan Lewis (UVA) <brylew@virginia.edu>, Madhav Marathe (UVA) <marathe@virginia.edu>
+website_url: https://biocomplexity.virginia.edu/
+model_version: "v0"
+methods: Metapopulation simulation over age- and spatially-stratified synthetic contact network. 
+license: cc-by-4.0

@@ -1,0 +1,10 @@
+team_name: MOBS_NEU
+model_name: GLEAM_FLU
+model_abbr: MOBS_NEU-GLEAM_FLU
+model_contributors: "Matteo Chinazzi (Northeastern University, Boston, MA) <m.chinazzi@northeastern.edu>, Jessica T. Davis (Northeastern University, Boston, MA) <davis.jes@northeastern.edu>, Kunpeng Mu (Northeastern University, Boston, MA) <mu.k@northeastern.edu>, Alessandro Vespignani (Northeastern University, Boston, MA) <a.vespignani@northeastern.edu>"
+website_url: http://www.gleamproject.org/
+model_version: "1.0"
+methods: GLEAM is an age-structured metapopulation model that includes high resolution demographic data, short-range commuting flows, domestic air traffic, and age-specific contact patterns.
+license: cc-by-sa-4.0
+citation: "Chinazzi M, Davis JT, Ajelli M, Gioannini C, Litvinova M, Merler S, Pastore Y Piontti A, Mu K, Rossi L, Sun K, Viboud C, Xiong X, Yu H, Halloran ME, Longini IM Jr, Vespignani A. The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak. Science. 2020 Apr 24;368(6489):395-400. doi: 10.1126/science.aba9757. Epub 2020 Mar 6. PMID: 32144116; PMCID: PMC7164386."
+

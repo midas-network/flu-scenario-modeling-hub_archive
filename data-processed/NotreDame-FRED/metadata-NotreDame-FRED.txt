@@ -1,0 +1,9 @@
+team_name: University of Notre Dame
+model_name: FRED
+model_abbr: NotreDame-FRED
+model_version: 2020-08-17
+model_contributors: Guido Espana <guido.espana@nd.edu>, Sean Moore <smoore15@nd.edu>, Alex Perkins <taperkins@nd.edu>
+website_url: https://github.com/confunguido/FRED
+license: BSD Simplified
+methods: FRED is an agent-based model developed for influenza. We have calibrated the model parameters to reproduce previous influenza seasons, using targets for hospitalizations, deaths, and infection attack rate.
+

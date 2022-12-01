@@ -1,0 +1,10 @@
+team_name: University of Southern California
+model_name: SIkJalpha
+model_abbr: USC-SIkJalpha
+model_contributors: Ajitesh Srivastava <ajiteshs@usc.edu>, Majd Al Aawar <malaawar@usc.edu>
+website_url: TBD
+model_version: 2022-08-14
+methods: Discrete heterogeneous rate model where rates are learned using regression weighing the recently seen data higher. Past seasons' rates are used as a proxy for seasonality.
+license: MIT
+team funding:NSF Award # 2135784
+data inputs: HHS & flusurvnet

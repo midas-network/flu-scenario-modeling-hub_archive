@@ -1,0 +1,8 @@
+team_name: UVA Biocomplexity Institute 
+model_name: EpiHiperFlu
+model_abbr: UVA-EpiHiperFlu
+model_contributors: Jiangzhuo Chen (UVA) <chenj@virginia.edu>, Stefan Hoops (UVA) <shoops@virginia.edu>, Parantapa Bhattacharya (UVA) <parantapa@virginia.edu>, Dustin Machi (UVA) <dm8qs@virginia.edu>, Bryan Lewis (UVA) <brylew@virginia.edu>, Madhav Marathe (UVA) <marathe@virginia.edu>
+website_url: Not available
+model_version: "2022-09-08"
+methods: EpiHiper is an agent-based model that computes stochastic transmissions of a disease in a synthetic contact network between individuals and stochastic state transitions within each individual.
+license: cc-by-4.0
