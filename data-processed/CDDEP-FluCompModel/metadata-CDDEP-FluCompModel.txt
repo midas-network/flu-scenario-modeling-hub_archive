@@ -2,8 +2,8 @@ team_name: CDDEP
 model_name: FluCompModel
 model_abbr: CDDEP-FluCompModel
 model_contributors: Fardad Haghpanah <haghpanah@cddep.org>, Eili Klein <klein@cddep.org>, 
-website_url: TBD
+website_url: -
 model_version: "1.0"
-methods: age-stratified compartmental model, MCMC for parameter estimation 
+methods: age-stratified compartmental model with an MCMC wrapper for parameter estimation 
 license: cc-by-4.0
-citation: TBD
+citation: Haghpanah F, Hamilton A, Klein E. Modeling the potential health impacts of delayed strain selection on influenza hospitalization and mortality with mRNA vaccines. Vaccine: X. 2023 Aug 1;14:100287.
