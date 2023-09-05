@@ -8,6 +8,6 @@ website_url: https://MyModel.website
 model_version: "1.0"
 methods: this the method description of the model. 
 license: cc-by-4.0
-citation: "Smith J, Smith S, Smith C. MyModel is the best model. Nature. 2020 Aug. doi: 10.1038/s12345-678-90123-45."
+citation: "Smith J, Smith S, Smith C. MyModel is the best model. Nature. 2020 Aug. doi: 10.1038/...."
 
 
