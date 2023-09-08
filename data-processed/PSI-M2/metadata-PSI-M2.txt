@@ -1,0 +1,10 @@
+team_name: PSI
+model_name: M2
+model_abbr: PSI-M2
+model_contributors: Ben-Nun M (Predictive Science) <mbennun@predsci.com>, Turtle J (Predictive Science) <jturtle@predsci.com>, Riley P (Predictive Science) <pete@predsci.com>.
+website_url: https://predsci.com/usa-flu-hosp/
+model_version: "2.0"
+methods: For each state/territory our scenario projections are generated using a mechanistic model with S[Sv]I[Iv]HR compartments, where 'v' subscripts indicate vaccinated and each compartment is age-stratified. We use the population and vaccine time series provided by the Scenario Hub and assume that the infection-susceptibility of vaccinated individuals is reduced by one half of vaccine effectiveness. Estimates for R_0 and infection-hospitalization-ratio priors were taken from model fits to the exemplar seasons.  Initial susceptibles were estimated as 70% of each age group.  Seeding priors were estimated using historic ILI+ peaks for the appropriate influenza type.  
+license: cc-by-4.0
+
+
