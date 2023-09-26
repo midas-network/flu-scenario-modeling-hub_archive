@@ -1,11 +1,10 @@
 team_name: PHDL
 model_name: FREDMODEL
 model_abbr: PHDL-FREDMODEL
-model_contributors: Mary G Krauland (University of Pittsburgh) <mgk8@pitt.edu>
+model_contributors: Mary G Krauland (University of Pittsburgh) <mgk8@pitt.edu>, Jessica Elizabeth Kerr (University of Pittsburgh) <JEK118@pitt.edu>
 website_url: https://fred.publichealth.pitt.edu
 model_version: "1.0"
-methods: Agent-based model of influenza, single season, similar to H3N2, varied vaccine efficacy and prior immunity. Vaccine uptake as reported by CDC.
+methods: Agent-based model of influenza, single season. H3N2 scenarios based on 2017-2018 season data, H1N1 scenarios based on 2019-2020 season data.
+Varied vaccine uptake. Assumed 40% VE, prior immunity based on respective H3N2/H1N1 seasons with 25% burden added to account for asymptomatic cases.
 license: cc-by-4.0
 citation: ""
-
-
