@@ -13,7 +13,7 @@ Due to file size limitation, the file can be submitted in a in a `.parquet` or
 All submissions will be automatically validated upon submission, for
 more information please consult the validation wiki page. 
 
-The submission file format has been updated starting round 4 (September 2024).  For 
+The submission file format has been updated starting round 1 2023-2024 (September 2023).  For 
 information on previous file format please refer to past version of this 
 README file.
 
@@ -332,7 +332,7 @@ Values in the `horizon` column must be a integer (N) between 1 and last week
 horion value representing the associated target value during the N weeks
 after `origin_date`. 
 
-For example, between 1 and 39 for Round 4 ("**Simulation end date:** 
+For example, between 1 and 39 for Round 1 2023-2024 ("**Simulation end date:** 
  June 1, 2024 (39-week horizon)") and in the following example table,
 the first row represent the number of incident death in the US, for the 1st 
 epiweek (epiweek ending on 2023-09-09) after 2023-09-03 for the scenario 
@@ -457,7 +457,7 @@ epiweek1
 
 ```
 
-The output file with the cdf should follow this example (following round 4):
+The output file with the cdf should follow this example (following round 1 2023-2024):
 |origin_date|scenario_id|location|target|horizon|age_group|output_type|output_type_id|value|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |2023-09-03|A-2023-08-14|US|inc death|NA|0-130|cdf|EW202336||
