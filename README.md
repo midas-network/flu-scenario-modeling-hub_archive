@@ -2,7 +2,7 @@
 
 # Flu Scenario Modeling Hub
 
-Last updated: 14-08-2023 for **Round 4 Scenarios**.
+Last updated: 14-08-2023 for **Round 1 2023-2024 Scenarios**.
 
 ## Rationale    
 
@@ -43,10 +43,10 @@ required file formats can be found
 
 </br>
 
-## Round 4 Scenarios     
+## Round 1 2023-2024 Scenarios     
 
-Round 4 will provide early season projections for the 2023-24 influenza season 
-and resemble what we did last year in Round 1 at a time when flu activity was 
+Round 1 2023-2024 will provide early season projections for the 2023-24 influenza season 
+and resemble what we did last year in Round 1 2022-2023 at a time when flu activity was 
 low. This year however, we have an extra year of HHS Protect hospitalization 
 data for calibration. We will consider 6 scenarios describing the interaction 
 of vaccination coverage (first dimension) with the dominant influenza A subtype 
@@ -148,7 +148,7 @@ the vaccination file that we provide for the 2023-24 season. In summary, coverag
 data in this file can be used as is, without further adjustment. 
 
 
-**TIMELINE: ROUND 4 FLU**
+**TIMELINE: ROUND 1 2023-2024 FLU**
 
 - **Scenarios set (no changes after):** *Friday, Aug 18, 2023*
 - **Projections due:** *Tuesday, Sep 5, 2023*
@@ -276,7 +276,7 @@ and cumulative counts, as well as for hospitalization peak size and peak timing.
 
 
 *   **Optional targets (only if submitting quantiles in addition to trajectories):**
-    * Cumulative hospitalizations. Cumulative outcomes start at 0 at the start of projections, on Sep 3, 2023. This is similar to rounds 1-3. 
+    * Cumulative hospitalizations. Cumulative outcomes start at 0 at the start of projections, on Sep 3, 2023. This is similar to rounds 1-3 2023-2023. 
     * State-level peak hospitalizations.
     * State-level timing of peak hospitalizations
 
