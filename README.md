@@ -522,6 +522,7 @@ Benjamin Hurt,  Bryan Lewis (UVA), Madhav Marathe (UVA)
  - Sung-mok Jung, University of North Carolina
  - Jessi Espino, University of Pittsburgh
  - John Levander, University of Pittsburgh
+ - Samantha Bents, NIH Fogarty
  - Katie Yan, Penn State University
  
 ### Past member
