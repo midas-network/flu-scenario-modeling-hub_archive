@@ -368,8 +368,7 @@ abstract.**
 **Other submission requirements**
 
 *   **Simulation trajectories:** We ask that teams submit a sample of 100 to 300 
-simulation replicates, paired across horizon and vaccination levels (and age groups if
-multiple age groups are provided). Simulations should 
+simulation replicates, paired across horizon, age group and vaccination levels. Simulations should 
 be sampled in such a way that they will be most likely to produce the same summary 
 statistics as that quantile submitted. For some models, this may mean a random sample 
 of simulations, for others with larger numbers of simulations, it may require weighted sampling.
