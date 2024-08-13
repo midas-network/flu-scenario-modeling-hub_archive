@@ -174,7 +174,8 @@ a particular date for a particular target.
 |`output_type`|character| 
 |`output_type_id`|numeric, character, logical (if all `NA`)| 
 |`value`|numeric|
-|`run_grouping`|numeric, integer|
+|`run_grouping`|integer|
+|`rstochastic_run`|integer|
 
 
 ### `origin_date`
