@@ -13,7 +13,7 @@ Due to file size limitation, the file can be submitted in a in a `.parquet` or
 All submissions will be automatically validated upon submission, for
 more information please consult the validation wiki page. 
 
-The submission file format has been updated starting round 4 (September 2024).  For 
+The submission file format has been updated starting round 1 2023-2024 (September 2023).  For 
 information on previous file format please refer to past version of this 
 README file.
 
@@ -113,7 +113,7 @@ The "arrow" library can be used to read/write the files in
 Other tools are also accessible, for example [parquet-tools](https://github.com/hangxie/parquet-tools)
 
 For example, in R:
-```
+```r
 # To write "parquet" file format:
 filename <- ”path/YYYY-MM-DD-team_model.parquet”
 arrow::write_parquet(df, filename)
@@ -143,7 +143,7 @@ If the size of the file is larger than 100MB, it should be submitted in a
 
 The file must have the following columns (in any order):
 
-The output file should contains eight columns:
+The output file should contains multiple columns:
 - `origin_date`
 - `scenario_id`
 - `target`
@@ -152,12 +152,30 @@ The output file should contains eight columns:
 - `age_group`
 - `output_type` 
 - `output_type_id` 
+- `run_grouping`
+- `stochastic_run`
 - `value`
 
 No additional columns are allowed.
 
 Each row in the file is a specific type for a scenario for a location on
 a particular date for a particular target. 
+
+### Column format
+
+|Column Name|Accepted Format|
+|:---:|:---:|
+|`origin_date`|character, date (datetime not accepted)|
+|`scenario_id`|character|
+|`target`|character|
+|`horizon`|numeric, integer|
+|`location`|character|
+|`age_group`|character|
+|`output_type`|character| 
+|`output_type_id`|numeric, character, logical (if all `NA`)| 
+|`value`|numeric|
+|`run_grouping`|integer|
+|`stochastic_run`|integer|
 
 
 ### `origin_date`
@@ -182,7 +200,7 @@ Scenario id's include a captitalized letter and date as YYYY-MM-DD, e.g.,
 ### `target`
 
 The submission can contain multiple output type information: 
-- 100 representative trajectories from the model simulations. We will 
+- From 100 to 300 representative trajectories from the model simulations. We will 
   call this format "sample" output type. For more information, please
   consult the 
   [sample](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed#sample) 
@@ -198,11 +216,11 @@ The submission can contain multiple output type information:
   [cdf](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed#cdf) 
   section. 
 
-The requested targets are (for "sample" type output):
+The requested targets are (for `"sample"` type output):
 - weekly incident deaths (US level only)
 - weekly incident hospitalizations (US + State level)
 
-Optional target (for "quantile" or "cdf" type output):
+Optional target (for `"quantile"` or `"cdf"` type output):
 - quantile:
     - weekly cumulative deaths (US level only)
     - weekly cumulative hospitalizations (US + State level)
@@ -212,16 +230,17 @@ Optional target (for "quantile" or "cdf" type output):
 - cdf:
     - weekly peak timing hospitalizations (US + State level)
 
-For all the targets, the age group `"0-130"` is required, all the incident and 
-cumulative targets can also include other age group information (optional).
+For all the targets, the age group `"0-130"` is required, all the weekly 
+incident and cumulative targets can also include other age group information 
+(optional). The peak targets only accepted the age group `"0-130"` 
 
 Values in the `target` column must be one of the following character strings:
-- "inc death"  
-- "inc hosp"
-- "cum death"  
-- "cum hosp"
-- "peak size hosp"
-- "peak time hosp"
+- `"inc death"`  
+- `"inc hosp"`
+- `"cum death"`  
+- `"cum hosp"`
+- `"peak size hosp"`
+- `"peak time hosp"`
 
 
 #### inc death
@@ -332,7 +351,7 @@ Values in the `horizon` column must be a integer (N) between 1 and last week
 horion value representing the associated target value during the N weeks
 after `origin_date`. 
 
-For example, between 1 and 39 for Round 4 ("**Simulation end date:** 
+For example, between 1 and 39 for Round 1 2023-2024 ("**Simulation end date:** 
  June 1, 2024 (39-week horizon)") and in the following example table,
 the first row represent the number of incident death in the US, for the 1st 
 epiweek (epiweek ending on 2023-09-09) after 2023-09-03 for the scenario 
@@ -374,25 +393,47 @@ quantile scenario, etc.
 
 #### `sample`
 
-For the optional simulation samples format only. Values in the `output_type_id` 
-column are numeric between `1` and `100` indicating an id sample number. 
-Each ID number represents one in 100 representative trajectories from the 
-simulations. 
+For the simulation samples format only. Value in the `output_type_id` 
+column is `NA`
 
-**All scenario-location-target-horizon-age_group group should have a unique 
-associated sample.**
+The id sample number is input via two columns:
+
+- `run_grouping`: This column specifies any additional grouping if it controls 
+   for some factor driving the variance between trajectories (e.g., underlying 
+   parameters, baseline fit) that is shared across trajectories in different 
+   scenarios. I.e., if using this grouping will reduce overall variance 
+   compared to analyzing all trajectories as independent, this grouping should 
+   be recorded by giving all relevant rows the same number. If no such 
+   grouping exists, number each model run independently. 
+- `stochastic_run` : a unique id to differentiate multiple stochastic runs. If 
+   no stochasticity: the column will contain an unique value
+
+Both columns should only contain integer number. 
+
+The submission file is expected from 100  to 300 simulation samples 
+(or trajectories) for each "group". 
+
+For round 1 2024-2025, it is required to have the trajectories grouped at least by 
+`"age_group"`, `"horizon"` and vaccination levels, so it is required that the 
+combination of the `run_grouping` and `stochastic_run` columns contains at least 
+an unique identifier for each group containing all the possible value for `"age_group"`,
+`"horizon"` but also any trajectory from scenario A should have a 
+matched trajectory in scenario C and E. Same for B, D, F. 
+
+Fore more information and examples, please consult the 
+[Sample Format Documentation page](https://scenariomodelinghub.org/documentation/sample_format.html).
 
 For example:
 
-|origin_date|scenario_id|location|target|horizon|age_group|output_type|output_type_id|value|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|2023-09-03|A-2023-08-14|US|inc death|1|0-130|sample|1||
-|2023-09-03|A-2023-08-14|US|inc death|2|0-130|sample|1||
-|2023-09-03|A-2023-08-14|US|inc death|3|0-130|sample|1||
-||||||||||
-|2023-09-03|A-2023-08-14|US|inc death|1|0-130|sample|2||
-|2023-09-03|A-2023-08-14|US|inc death|2|0-130|sample|2||
-||||||||||
+|origin_date|scenario_id|location|target|horizon|age_group|output_type|output_type_id|value|run_grouping|stochastic_run|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|2023-09-03|A-2024-08-01|US|inc death|1|0-130|sample|NA||1|1|
+|2023-09-03|A-2024-08-01|US|inc death|2|0-130|sample|NA||1|1|
+|2023-09-03|A-2024-08-01|US|inc death|3|0-130|sample|NA||1|1|
+||||||||||||
+|2023-09-03|A-2024-08-01|US|inc death|1|0-130|sample|NA||2|1|
+|2023-09-03|A-2024-08-01|US|inc death|2|0-130|sample|NA||2|1|
+||||||||||||
 
 
 #### `quantile` 
@@ -457,7 +498,7 @@ epiweek1
 
 ```
 
-The output file with the cdf should follow this example (following round 4):
+The output file with the cdf should follow this example (following round 1 2023-2024):
 |origin_date|scenario_id|location|target|horizon|age_group|output_type|output_type_id|value|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |2023-09-03|A-2023-08-14|US|inc death|NA|0-130|cdf|EW202336||
@@ -468,14 +509,14 @@ The output file with the cdf should follow this example (following round 4):
 
 ### `value`
 
-Values in the `value` column are non-negative numbers indicating the associated
-output_type prediction for this row. 
+Values in the `value` column are non-negative integer or with one
+decimal place indicating the associated `output_type` prediction for 
+this row. 
 
 #### Peak time hosp
 
 For the `peak time hosp` target, the values in the `value` column are non-negative 
 numbers between 0 and 1.  
-
 
 ### `age_group ` 
 
