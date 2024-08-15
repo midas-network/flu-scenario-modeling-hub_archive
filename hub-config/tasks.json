@@ -851,7 +851,7 @@
         "end": "2023-09-25"
       },
       "verbose": {
-        "sample": ["scenario_id"]
+        "sample": ["scenario_id", "age_group"]
       }
     }
   ]
