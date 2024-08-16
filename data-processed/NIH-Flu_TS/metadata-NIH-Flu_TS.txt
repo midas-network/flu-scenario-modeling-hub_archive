@@ -4,7 +4,7 @@ model_abbr: NIH-Flu_TS
 model_contributors: Amanda Perofsky (NIH) <amanda.perofsky@nih.gov>, Cécile Viboud (NIH) <viboudc@mail.nih.gov>
 website_url: not available
 model_version: "1.0"
-methods: Dynamic harmonic regression model with ARMA errors and exogenous covariates for cumulative vaccination coverage, seasonal vaccine effectiveness, weekly A/H3N2 circulation, and weekly influenza infections.
+methods: Dynamic harmonic regression model with ARMA errors and exogenous covariates for cumulative vaccination coverage, seasonal vaccine effectiveness, weekly A/H3N2 circulation, and lagged weekly estimated influenza infections.
 license: cc-by-4.0
 citation: not available
 
