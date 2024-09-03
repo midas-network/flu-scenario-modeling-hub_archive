@@ -74,7 +74,7 @@ A bibliographic citation to a paper, website, or other object that people can go
 
 For each model and round, an abstract file is in markdown format. A template of each round abstract is available in the folder [data-processed/Myteam-MyModel](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed/MyTeam-MyModel). 
 
-For the round 1, 2 and 3 2022-2023, the same abstract model can be used: [2022-08-14-MyTeam-MyModel-abstract.md](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed/MyTeam-MyModel/2022-08-14-MyTeam-MyModel-abstract.md)
+The same abstract model can be used: [2022-08-14-MyTeam-MyModel-abstract.md](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed/MyTeam-MyModel/2022-08-14-MyTeam-MyModel-abstract.md)
 
 The file should be named 
 ```
