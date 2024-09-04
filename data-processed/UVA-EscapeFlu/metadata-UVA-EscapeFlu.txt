@@ -1,0 +1,8 @@
+team_name: UVA Biocomplexity Institute
+model_name: EscapeFlu
+model_abbr: UVA-EscapeFlu
+model_contributors: Parantapa Bhattacharya (UVA) <parantapa@virginia.edu>, Srini Venkatramanan <srini@virginia.edu>, Bryan Lewis (UVA) <brylew@virginia.edu>, Jiangzhuo Chen (UVA) <chenj@virginia.edu>, Stefan Hoops (UVA) <shoops@virginia.edu>, Madhav Marathe (UVA) <marathe@virginia.edu>
+website_url: https://biocomplexity.virginia.edu/
+model_version: "2024-09-03"
+methods: Agent based stochastic simulation of contagion on a age and spatially stratified synthetic contact network.
+license: cc-by-4.0
