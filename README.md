@@ -493,6 +493,35 @@ contact Katriona Shea at k-shea@psu.edu.
 
 *   [*California Department of Public Health — FluCAT*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/CADPH-FluCAT/metadata-CADPH-FluCAT.txt)
     *   White, L.A. (CADPH), Murray, E. (CADPH), Leon, T.M. (CADPH) 
+*   [*Northeastern University MOBS Lab — GLEAM FLU*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/MOBS_NEU-GLEAM_FLU/metadata-MOBS_NEU-GLEAM_FLU.txt)
+    *   Matteo Chinazzi (Northeastern University, Boston, MA), Jessica T. Davis 
+(Northeastern University, Boston, MA), Kunpeng Mu (Northeastern University, Boston, 
+MA), Alessandro Vespignani (Northeastern University, Boston, MA)
+*   [*Fogarty International Center, National Institutes of Health (NIH) — Flu_TS*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/NIH-Flu_TS/metadata-NIH-Flu_TS.txt)
+    *   Amanda Perofsky (NIH), Cécile Viboud (NIH)
+*   [*University of Notre Dame — FRED*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/NotreDame-FRED/metadata-NotreDame-FRED.txt)
+    *   Guido Espana, Sean Moore, Alex Perkins
+*   [*Predictive Science — M*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/PSI-M2/metadata-PSI-M2.txt)
+    *   Ben-Nun M (Predictive Science), Turtle J (Predictive Science), Riley P 
+    (Predictive Science)
+*   [*University of Southern California — SIkJalpha*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/USC-SIkJalpha/metadata-USC-SIkJalpha.txt)
+    *   Ajitesh Srivastava, Majd Al Aawar
+*   [*University of Texas — ImmunoSEIRS*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/UT-ImmunoSEIRS/metadata-UT-ImmunoSEIRS.txt)
+    *   Shraddha Ramdas Bandekar (University of Texas at Austin), 
+    Kaiming Bi (The University of Texas at Austin), 
+    Anass Bouchnita (The University of Texas at El Paso), 
+    Spencer J. Fox (The University of Georgia), 
+    Lauren Ancel Meyers (The University of Texas at Austin), 
+    UT COVID-19 Modeling Consortium.
+*   [*University of Virginia Biocomplexity Institute — EscapeFlu*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/UVA-EscapeFlu/metadata-UVA-EscapeFlu.txt)
+    *   Parantapa Bhattacharya (UVA), Srini Venkatramanan, Bryan Lewis (UVA), 
+    Jiangzhuo Chen (UVA), Stefan Hoops (UVA), Madhav Marathe (UVA)
+*   [*University of Virginia Biocomplexity Institute — FluXSim*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/UVA-FluXSim/metadata-UVA-FluXSim.txt)
+    *   Srini Venkatramanan, Aniruddha Adiga, Przemek Porebski, Brian Klahn, 
+Benjamin Hurt,  Bryan Lewis (UVA), Madhav Marathe (UVA)
+
+### Past Teams and Models
+
 *   [*Center For Disease Dynamics, Economics & Policy — FluCompModel*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/CDDEP-FluCompModel/metadata-CDDEP-FluCompModel.txt)
     *   Fardad Haghpanah, Eili Klein
 *   [*Johns Hopkins ID Dynamics — COVID Scenario Pipeline*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/JHU_IDD-CovidSP/metadata-JHU_IDD-CovidSP.txt)
@@ -506,34 +535,15 @@ contact Katriona Shea at k-shea@psu.edu.
         Dynamics), Elizabeth C. Lee (Johns Hopkins Infectious Disease 
         Dynamics), Justin Lessler (UNC), Shaun Truelove (Johns Hopkins 
         Infectious Disease Dynamics)
-*   [*Northeastern University MOBS Lab — GLEAM FLU*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/MOBS_NEU-GLEAM_FLU/metadata-MOBS_NEU-GLEAM_FLU.txt)
-    *   Matteo Chinazzi (Northeastern University, Boston, MA), Jessica T. Davis 
-(Northeastern University, Boston, MA), Kunpeng Mu (Northeastern University, Boston, 
-MA), Alessandro Vespignani (Northeastern University, Boston, MA)
-*   [*Fogarty International Center, National Institutes of Health (NIH) — Flu_TS*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/NIH-Flu_TS/metadata-NIH-Flu_TS.txt)
-    *   Amanda Perofsky (NIH), Cécile Viboud (NIH)
-*   [*University of Notre Dame — FRED*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/NotreDame-FRED/metadata-NotreDame-FRED.txt)
-    *   Guido Espana, Sean Moore, Alex Perkins
-*   [*University of Southern California — SIkJalpha*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/USC-SIkJalpha/metadata-USC-SIkJalpha.txt)
-    *   Ajitesh Srivastava, Majd Al Aawar
-*   [*University of Texas — ImmunoSEIRS*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/UT-ImmunoSEIRS/metadata-UT-ImmunoSEIRS.txt)
-    *   Kaiming Bi (The University of Texas at Austin), Anass Bouchnita (The 
-University of Texas at El Paso), Shraddha R Bandekar (University of Texas at Austin), 
-Spencer J. Fox (The University of Georgia), Lauren Ancel Meyers (The University of 
-Texas at Austin), UT COVID-19 Modeling Consortium.
 *   [*University of Virginia Biocomplexity Institute  — EpiHiper*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/UVA-EpiHiper/metadata-UVA-EpiHiper.txt)
     *   Jiangzhuo Chen (UVA), Stefan Hoops (UVA), Parantapa Bhattacharya (UVA), Dustin 
 Machi (UVA), Bryan Lewis (UVA), Madhav Marathe (UVA)
-*   [*University of Virginia Biocomplexity Institute — FluXSim*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/UVA-FluXSim/metadata-UVA-FluXSim.txt)
-    *   Srini Venkatramanan, Aniruddha Adiga, Przemek Porebski, Brian Klahn, 
-Benjamin Hurt,  Bryan Lewis (UVA), Madhav Marathe (UVA)
+
 *   [*Fogarty International Center, National Institutes of Health (NIH) — FluD*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/NIH-FluD/metadata-NIH-FluD.txt)
     *   Samantha Bents (NIH), Cécile Viboud (NIH)
 *   [*Public Health Dynamics Laboratory — FREDMODEL*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/PHDL-FREDMODEL/metadata-PHDL-FREDMODEL.txt)
     *   Mary G Krauland
-*   [*Predictive Science — M1*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/PSI-M1/metadata-PSI-M1.txt)
-    *   Ben-Nun M (Predictive Science), Turtle J (Predictive Science), Riley P 
-    (Predictive Science)
+
 
 
 ## The Flu Scenario Modeling Hub Coordination Team    
