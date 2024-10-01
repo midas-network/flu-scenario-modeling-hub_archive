@@ -535,14 +535,14 @@ Benjamin Hurt,  Bryan Lewis (UVA), Madhav Marathe (UVA)
         Dynamics), Elizabeth C. Lee (Johns Hopkins Infectious Disease 
         Dynamics), Justin Lessler (UNC), Shaun Truelove (Johns Hopkins 
         Infectious Disease Dynamics)
+*   [*Fogarty International Center, National Institutes of Health (NIH) — FluD*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/NIH-FluD/metadata-NIH-FluD.txt)
+    *   Samantha Bents (NIH), Cécile Viboud (NIH)
+
+*   [*Public Health Dynamics Laboratory — FREDMODEL*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/PHDL-FREDMODEL/metadata-PHDL-FREDMODEL.txt)
+    *   Mary G Krauland, Jessica Eizabeth Kerr 
 *   [*University of Virginia Biocomplexity Institute  — EpiHiper*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/UVA-EpiHiper/metadata-UVA-EpiHiper.txt)
     *   Jiangzhuo Chen (UVA), Stefan Hoops (UVA), Parantapa Bhattacharya (UVA), Dustin 
 Machi (UVA), Bryan Lewis (UVA), Madhav Marathe (UVA)
-
-*   [*Fogarty International Center, National Institutes of Health (NIH) — FluD*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/NIH-FluD/metadata-NIH-FluD.txt)
-    *   Samantha Bents (NIH), Cécile Viboud (NIH)
-*   [*Public Health Dynamics Laboratory — FREDMODEL*](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/PHDL-FREDMODEL/metadata-PHDL-FREDMODEL.txt)
-    *   Mary G Krauland
 
 
 
