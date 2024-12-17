@@ -1,9 +1,0 @@
-team_name: ACCIDDA
-model_name: FlepiMoP
-model_abbr: ACCIDDA-FlepiMoP
-model_contributors: Joshua Macdonald <jmacdo16@jh.edu>, Tijs  Alleman <tallema2@jhu.edu>, Joeseph Lemaitre <jo.lemaitresamra@gmail.com> 
-website_url: https://www.flepimop.org
-model_version: "2.0"
-methods: age-stratified compartmental model with an MCMC wrapper for parameter estimation 
-license: cc-by-4.0
-citation: Joeseph Lemaitre et al (2024). 

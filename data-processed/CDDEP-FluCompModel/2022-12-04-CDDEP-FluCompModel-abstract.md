@@ -1,6 +1,5 @@
 # Summary of Results
-Our results show the impact of VE depends on prior immunity. In case of the optimistic prior immunity, a lower VE did not have a significant impact on hospitalizations (scenarios A (highVE_optImm) and C (lowVE_optImm)); however, when prior immunity was assumed to be low, VE could have a significant impact (scenarios B (highVE_pesImm) and D (lowVE_pesImm)).
-
+We 
 The timing of the peak hospitalization varies across different scenarios and age groups, from as  early as late November to January 2023. Except for scenario D, in all other scenarios, the peak for the 0-17 age group was earlier than those in other age groups.
 
 # General Model Description
