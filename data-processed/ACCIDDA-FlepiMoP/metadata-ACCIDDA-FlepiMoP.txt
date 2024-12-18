@@ -5,7 +5,7 @@ model_abbr: ACCIDDA-flepiMoP
 model_contributors: Joshua C. Macdonald (JHU), Tijs Alleman (JHU), Joseph C. Lemaitre (UNC), Sara Loo (JHU), Clif McKee (JHU), Alison Hill (JHU), Justin Lessler (UNC), Shaun Truelove (JHU) <shauntruelove@jhu.edu>
 website_url: https:/flepimop.org
 model_version: "2.0"
-methods: state specific age structured SEIR model
+methods: state specific age structured SEIRDH model
 license: MIT
 team_funding: CDC
 
