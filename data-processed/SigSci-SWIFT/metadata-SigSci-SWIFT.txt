@@ -1,0 +1,8 @@
+team_name: Signature Science
+model_name: SWIFT
+model_abbr: SigSci-SWIFT
+model_contributors: Benefield AE (Signature Science, LLC) <abenefield@signaturescience.com>, Nagraj VP (Signature Science, LLC) <pnagraj@signaturescience.com>, Williams D (Signature Science, LLC).
+website_url: https://www.signaturescience.com/what-we-do/health-security/infectious-disease/
+model_version: "1.0"
+methods: Hybrid statistical-mechanistic model with age- and spatial-stratification and a dual-harmoic seasonal forcing term. 
+license: cc-by-4.0
