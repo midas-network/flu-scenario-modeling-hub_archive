@@ -1,4 +1,4 @@
-<a href="https://fluscenariomodelinghub.org/"><img src= "https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/logo.png" alt="drawing" width="300"/></a>
+<a href="https://fluscenariomodelinghub.org/"><img src= "https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/logo.png" alt="drawing" width="300"/></a>
 
 # Flu Scenario Modeling Hub
 
