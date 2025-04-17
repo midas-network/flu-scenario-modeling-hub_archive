@@ -1,4 +1,4 @@
-<a href="https://fluscenariomodelinghub.org/"><img src= "https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/logo.png" alt="drawing" width="300"/></a>
+<a href="https://fluscenariomodelinghub.org/"><img src= "https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/logo.png" alt="drawing" width="300"/></a>
 
 # Flu Scenario Modeling Hub
 
@@ -12,7 +12,7 @@ COVID-19 pandemic on prior immunity (2nd dimension) over a 41-week period. We
 follow the usual 2 * 2 table structure from the 
 [COVID-19 Scenario Modeling Hub](https://covid19scenariomodelinghub.org/). 
 
-<img src= "https://raw.githubusercontent.com/midas-network/flu-scenario-modeling-hub/main/previous-rounds/flu_round1.png">
+<img src= "https://raw.githubusercontent.com/midas-network/flu-scenario-modeling-hub_archive/main/previous-rounds/flu_round1.png">
 
 ### **OTHER SPECIFICATIONS AND ASSUMPTIONS**
 

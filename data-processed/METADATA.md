@@ -2,7 +2,7 @@
 
 Each model is required to have metadata in 
 [yaml format](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html), 
-e.g. [see this example metadata file](https://github.com/midas-network/flu-scenario-modeling-hub/blob/master/data-processed/MyTeam-MyModel/metadata-MyTeam-MyModel.txt).
+e.g. [see this example metadata file](https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/master/data-processed/MyTeam-MyModel/metadata-MyTeam-MyModel.txt).
 
 Please order the variables in this order.
 
@@ -72,9 +72,9 @@ A bibliographic citation to a paper, website, or other object that people can go
 
 # Abstract file structure
 
-For each model and round, an abstract file is in markdown format. A template of each round abstract is available in the folder [data-processed/Myteam-MyModel](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed/MyTeam-MyModel). 
+For each model and round, an abstract file is in markdown format. A template of each round abstract is available in the folder [data-processed/Myteam-MyModel](https://github.com/midas-network/flu-scenario-modeling-hub_archive/tree/main/data-processed/MyTeam-MyModel). 
 
-The same abstract model can be used: [2022-08-14-MyTeam-MyModel-abstract.md](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed/MyTeam-MyModel/2022-08-14-MyTeam-MyModel-abstract.md)
+The same abstract model can be used: [2022-08-14-MyTeam-MyModel-abstract.md](https://github.com/midas-network/flu-scenario-modeling-hub_archive/tree/main/data-processed/MyTeam-MyModel/2022-08-14-MyTeam-MyModel-abstract.md)
 
 The file should be named 
 ```

@@ -21,7 +21,7 @@ README file.
 
 ## Example
 
-See this [file](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/MyTeam-MyModel/2023-09-03-MyTeam-MyModel.parquet)
+See this [file](https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/data-processed/MyTeam-MyModel/2023-09-03-MyTeam-MyModel.parquet)
 for an illustration of part of a (hypothetical) submission files with both required
 and optional target information. 
 
@@ -58,8 +58,8 @@ where
 - `team` is the teamname and 
 - `model` is the name of your model. 
     
-The metadata file must follow the [documented description](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/METADATA.md). 
-An example [hypothetical metadata file](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/MyTeam-MyModel/metadata-MyTeam-MyModel.txt) 
+The metadata file must follow the [documented description](https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/data-processed/METADATA.md). 
+An example [hypothetical metadata file](https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/data-processed/MyTeam-MyModel/metadata-MyTeam-MyModel.txt) 
 has been posted in the `data-processed` directory. 
 
 ---
@@ -128,7 +128,7 @@ arrow::read_parquet(filename)
 The date YYYY-MM-DD should correspond to the start date for scenarios
 projection ("first date of simulated transmission/outcomes" as noted in the
 scenario description on the main 
-[README, Submission Information](https://github.com/midas-network/flu-scenario-modeling-hub#submission-information)).
+[README, Submission Information](https://github.com/midas-network/flu-scenario-modeling-hub_archive#submission-information)).
 
 The `team` and `model` in this file must match the `team` and `model` in the 
 directory this file is in. Both `team` and `model` should be less than 15 
@@ -192,7 +192,7 @@ The "origin_date" and date in the filename should correspond.
 ### `scenario_id`
 
 The standard scenario id should be used as given in in the scenario 
-description in the [main Readme](https://github.com/midas-network/flu-scenario-modeling-hub). 
+description in the [main Readme](https://github.com/midas-network/flu-scenario-modeling-hub_archive). 
 Scenario id's include a captitalized letter and date as YYYY-MM-DD, e.g., 
 `A-2022-08-14`.
 
@@ -203,17 +203,17 @@ The submission can contain multiple output type information:
 - From 100 to 300 representative trajectories from the model simulations. We will 
   call this format "sample" output type. For more information, please
   consult the 
-  [sample](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed#sample) 
+  [sample](https://github.com/midas-network/flu-scenario-modeling-hub_archive/tree/main/data-processed#sample) 
   section.
 - A set of quantiles value for all the tarquets (except peak timing).
   We will call this format "quantile" output type. For more information, 
   please consult the 
-  [quantile](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed#quantile) 
+  [quantile](https://github.com/midas-network/flu-scenario-modeling-hub_archive/tree/main/data-processed#quantile) 
   section. 
 - A cumulative distribution function for the peak timing target. 
   We will call this format "cdf" output type. For more information, 
   please consult the 
-  [cdf](https://github.com/midas-network/flu-scenario-modeling-hub/tree/main/data-processed#cdf) 
+  [cdf](https://github.com/midas-network/flu-scenario-modeling-hub_archive/tree/main/data-processed#cdf) 
   section. 
 
 The requested targets are (for `"sample"` type output):
@@ -545,9 +545,9 @@ data-processed/ will be automatically validated
 When a pull request is submitted, the data are validated by running the
 scripts in [validation.R](../code/validation/validation.R). The intent for
 these tests are to validate the requirements above and all checks are 
-specifically enumerated [on the wiki](https://github.com/midas-network/flu-scenario-modeling-hub/wiki/Scenario-File-Checks).
+specifically enumerated [on the wiki](https://github.com/midas-network/flu-scenario-modeling-hub_archive/wiki/Scenario-File-Checks).
 
-Please [let us know](https://github.com/midas-network/flu-scenario-modeling-hub/issues) if
+Please [let us know](https://github.com/midas-network/flu-scenario-modeling-hub_archive/issues) if
 the wiki is inaccurate.
 
 #### Workflow
@@ -580,7 +580,7 @@ plus some information on calibration.
 #### Run checks locally
 
 To run these checks locally rather than waiting for the results from a pull
-request, follow [these instructions](https://github.com/midas-network/flu-scenario-modeling-hub/wiki/Scenario-File-Checks#file-checks-running-locally)
+request, follow [these instructions](https://github.com/midas-network/flu-scenario-modeling-hub_archive/wiki/Scenario-File-Checks#file-checks-running-locally)
 (section File Checks Run Locally).
 
 

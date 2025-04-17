@@ -1,4 +1,4 @@
-<a href="https://fluscenariomodelinghub.org/"><img src= "https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/logo.png" alt="drawing" width="300"/></a>
+<a href="https://fluscenariomodelinghub.org/"><img src= "https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/logo.png" alt="drawing" width="300"/></a>
 
 # Flu Scenario Modeling Hub
 
@@ -39,7 +39,7 @@ Those interested to participate should email scenariohub@midasnetwork.us .
 Model projections should be submitted via pull request to the data-processed 
 folder of this GitHub repository. Technical instructions for submission and 
 required file formats can be found 
-[here](https://github.com/midas-network/flu-scenario-modeling-hub/blob/main/data-processed/README.md).
+[here](https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/data-processed/README.md).
 
 </br>
 
@@ -53,7 +53,7 @@ with the impact of the COVID-19 pandemic on prior immunity to influenza (second
 dimension) over a 29-week period (Nov 13, 2022 - June 3, 2023). We follow the 
 usual 2 * 2 table structure. 
 
-<img src= "https://raw.githubusercontent.com/midas-network/flu-scenario-modeling-hub/main/previous-rounds/flu_round2.png">
+<img src= "https://raw.githubusercontent.com/midas-network/flu-scenario-modeling-hub_archive/main/previous-rounds/flu_round2.png">
 
 
 In all scenarios, we assume that vaccine uptake will proceed at the same pace 
