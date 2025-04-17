@@ -1,8 +1,11 @@
 <a href="https://fluscenariomodelinghub.org/"><img src= "https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/logo.png" alt="drawing" width="300"/></a>
 
-# Flu Scenario Modeling Hub
+# Flu Scenario Modeling Hub Archive
 
-Last updated: 01-08-2024 for **Round 1 2024-2025 Scenarios**.
+Last updated: 2025-04-17
+
+For information on all future rounds, please use the 
+[Flu Scenario Modeling Hub GitHub Repository](https://github.com/midas-network/flu-scenario-modeling-hub)
 
 ## Rationale    
 
