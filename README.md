@@ -285,7 +285,6 @@ matched trajectory in scenario C and E. Same for B, D, F.
     A current version of the weekly aggregated data has been posted 
     [here](https://github.com/midas-network/flu-scenario-modeling-hub_resources/blob/main/Rd5_datasets/HHS_flu_2020_2024_dataset.csv). 
     Note that the dataset was paused in May 2024 so there will be no recent data for calibration.
-
     -   Weekly national incident deaths, from the CDC multiplier model (i.e., true 
     mortality burden from the pyramid). These are real-time model estimates 
     updated weekly during the influenza season.  The model relies on influenza 
@@ -296,9 +295,7 @@ matched trajectory in scenario C and E. Same for B, D, F.
     deaths were due to flu illness or flu-related complications. 
     Further, see [here](https://www.cdc.gov/flu/about/burden/preliminary-in-season-estimates.htm) 
     for summary estimates for past seasons. No case target
-
-    - No infection target   
-
+    - No infection target
     - All targets should be numbers of individuals, rather than rates.
 
 
