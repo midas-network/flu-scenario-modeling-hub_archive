@@ -246,7 +246,7 @@ and cumulative counts, as well as for hospitalization peak size and peak timing.
 
 
 *   **Weekly target**
-    *   Weekly <u>reported</u> state-level incident hospitalizations, based on 
+    *   Weekly *reported* state-level incident hospitalizations, based on 
     HHS COVID and flu [reporting system](https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh). This dataset 
     is updated daily and covers 2020-2023. Weekly hospitalizations should be 
     based on the “previous_day_admission_influenza_confirmed” variable, without 
@@ -263,7 +263,7 @@ and cumulative counts, as well as for hospitalization peak size and peak timing.
     burden model suggest that between October 1, 2022 - April 30, 2023, between 
     19,000 – 58,000 deaths were due to flu illness or flu-related complications. 
     We have provided 3 historical seasons of weekly death estimates 
-    for calibration](https://github.com/midas-network/flu-scenario-modeling-hub_resources/blob/main/Rd1_datasets/In-season-National-Burden.csv). 
+    for [calibration](https://github.com/midas-network/flu-scenario-modeling-hub_resources/blob/main/Rd1_datasets/In-season-National-Burden.csv). 
     Further, see [here](https://www.cdc.gov/flu/about/burden/preliminary-in-season-estimates.htm) 
     for real-time cumulative estimates, and summary estimates for past seasons. 
     A file of weekly cumulative estimates for the 2022-23 season is posted [here](https://github.com/midas-network/flu-scenario-modeling-hub_resources/blob/main/CumulativeDeath/In_season_CDC_burden_estimates_deaths.csv).

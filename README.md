@@ -276,7 +276,8 @@ matched trajectory in scenario C and E. Same for B, D, F.
 
 
 *   **Weekly target**
-    *   Weekly <u>reported</u> state-level incident hospitalizations, based on 
+
+    -   Weekly *reported* state-level incident hospitalizations, based on 
     HHS COVID and flu [reporting system](https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh). 
     This dataset has previously been updated daily and covers 2020-2024. Weekly 
     hospitalizations should be based on the `“previous_day_admission_influenza_confirmed”` 
@@ -286,7 +287,7 @@ matched trajectory in scenario C and E. Same for B, D, F.
     Note that the dataset was paused in May 2024 so there will be no recent data for calibration.
 
 
-    *   Weekly national incident deaths, from the CDC multiplier model (i.e., true 
+    -   Weekly national incident deaths, from the CDC multiplier model (i.e., true 
     mortality burden from the pyramid). These are real-time model estimates 
     updated weekly during the influenza season.  The model relies on influenza 
     deaths reported in the hospitals via the FluSurv-NET system, adjusted for under 
@@ -297,9 +298,9 @@ matched trajectory in scenario C and E. Same for B, D, F.
     Further, see [here](https://www.cdc.gov/flu/about/burden/preliminary-in-season-estimates.htm) 
     for summary estimates for past seasons. No case target
 
-    * No infection target   
+    - No infection target   
 
-    * All targets should be numbers of individuals, rather than rates.
+    - All targets should be numbers of individuals, rather than rates.
 
 
 *   **Optional targets (only if submitting quantiles in addition to trajectories):**
