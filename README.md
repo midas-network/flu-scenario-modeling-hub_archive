@@ -286,7 +286,6 @@ matched trajectory in scenario C and E. Same for B, D, F.
     [here](https://github.com/midas-network/flu-scenario-modeling-hub_resources/blob/main/Rd5_datasets/HHS_flu_2020_2024_dataset.csv). 
     Note that the dataset was paused in May 2024 so there will be no recent data for calibration.
 
-
     -   Weekly national incident deaths, from the CDC multiplier model (i.e., true 
     mortality burden from the pyramid). These are real-time model estimates 
     updated weekly during the influenza season.  The model relies on influenza 
