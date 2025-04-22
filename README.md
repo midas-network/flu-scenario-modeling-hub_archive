@@ -489,6 +489,13 @@ data (available under specified licenses as described above).
 Those teams interested in accessing additional computational power should 
 contact Katriona Shea at k-shea@psu.edu.
 
+## Funding
+
+Scenario modeling groups are supported through grants to the contributing investigators.
+
+The Scenario Modeling Hub site is supported by the MIDAS Coordination Center, 
+NIGMS Grant U24GM132013 (2019-2024) and R24GM153920 (2024-2029) to the University of Pittsburgh.
+
 ## Teams and models    
 
 *   [*California Department of Public Health — FluCAT*](https://github.com/midas-network/flu-scenario-modeling-hub_archive/blob/main/data-processed/CADPH-FluCAT/metadata-CADPH-FluCAT.txt)
