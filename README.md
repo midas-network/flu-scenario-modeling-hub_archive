@@ -4,6 +4,8 @@
 
 Last updated: 2025-04-17
 
+This repository contains the Scenario Modeling Round projections and information from round 1 to round 4
+
 For information on all future rounds, please use the 
 [Flu Scenario Modeling Hub GitHub Repository](https://github.com/midas-network/flu-scenario-modeling-hub)
 
